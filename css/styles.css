@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+hr{
+    border-color: #8196b4;
+    margin-top: 50px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+}
+
+h1{
+    font-size: 1em;
+}
+
+h1:hover{
+    color:#08fefd;
+}
+
+.main-div{
+    color: white;
+    position:relative;
+    height:500px;
+    padding: 10%;
+    margin: 5% 5% 5% 5%;
+    background-color: #0c1729;
+}
+
+.card-div{
+    background-color:#15273f;
+    width:300px;
+    margin:auto;
+    border-radius:5%;
+    text-align: center
+}
+
+.card-body{
+    margin: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.left-info{
+    width: 50%;
+    float: left;
+}
+
+.right-info{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.card-footer{
+
+}
+
+.etherum-image{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.etherum-image:hover{
+    opacity: 0.1;
+}
+
+.view-image{
+    border-radius: 7px;
+    z-index: 0;
+    opacity: 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 107px;
+    margin-top: 0px;
+    padding-bottom: 105px;
+    padding-left: 104px;
+    padding-right: 108px;
+}
+
+.view-image:hover{
+    opacity: 1;
+    background-color:#08fefd2F;
+}
+
+.etherum-icon{
+    vertical-align: -15%;  
+}
+
+.clock-icon{
+    vertical-align: -13%;
+}
+
+.description{
+    color: #8aa8d6;
+}
+
+.time-left{
+    color: #8aa8d6;
+    display: inline;
+}
+
+.price{
+    color:#08fefd;
+    display: inline;
+}
+
+.creator-image{
+    width: 13%;
+    float: left;
+    border-color: #8aa8d6;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 100%;
+}
+
+.creator-text{
+    color:#8aa8d6;
+    padding-top: 7px;
+    padding-left: 50px;
+}
+
+.creator-name{
+    color: white;  
+}
+
+.creator-name:hover{
+    color: #08fefd;  
+}
+
